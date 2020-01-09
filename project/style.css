@@ -1,0 +1,39 @@
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+.inputWidth {
+    width: 180px !important;
+}
+
+.hide {
+    display: none;
+}
+
+.spine {
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    color: blue;
+}
+
+.searchInput {
+    background-image: url('find.png');
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 60px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
